@@ -2,8 +2,7 @@
 USER root
 WORKDIR /e2e
 
-RUN npx playwright install firefox
-
 COPY package*.json ./
-
-RUN npm install
+RUN npm i
+RUN npx playwright install firefox
+COPY . .
