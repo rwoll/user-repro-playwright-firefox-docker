@@ -7,11 +7,8 @@ services:
     environment:
       DEBUG: "pw:browser"    
     # volumes:
-    #   # - .:/e2e
-    #   # - node_modules:/e2e/node_modules
-    command: >
-      sh -c "npm install &&
-             npm test"
+      # - .:/e2e
+    command: npm test
 
 volumes:
   node_modules:
