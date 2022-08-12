@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  playwright:
+    container_name: playwright-ff
+    build: .
+    restart: always
+    volumes:
+      - .:/e2e
+      - node_modules:/e2e/node_modules
+    command: >
+      sh -c "npm install &&
+             npm test"
+
+volumes:
+  node_modules:
+    driver: local
