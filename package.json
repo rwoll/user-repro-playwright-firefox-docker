@@ -1,0 +1,21 @@
+{
+  "name": "playwright-firefox-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduter/playwright-firefox-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduter/playwright-firefox-docker/issues"
+  },
+  "homepage": "https://github.com/eduter/playwright-firefox-docker#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
